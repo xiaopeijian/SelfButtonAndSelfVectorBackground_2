@@ -1,0 +1,74 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:SelfButtonAndSelfVectorBackground_2">
+    <Canvas x:Shared="False" x:Key="Canvas1" HorizontalAlignment="Center" Height="52" UseLayoutRounding="False" VerticalAlignment="Center" Width="122">
+        <Path Stretch="Fill" Stroke="#FF507EC1" StrokeThickness="2" Canvas.Left="48.663" Canvas.Top="11.332" >
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure IsFilled="False" StartPoint="19.8707102602993,25.6596382792873">
+                        <BezierSegment IsSmoothJoin="True" Point3="2.70087075233459,20.3821029663086" Point2="6.11566352844238,26.3567733764648" Point1="13.6378736495972,28.6688919067383"/>
+                        <BezierSegment IsSmoothJoin="True" Point3="6.97411251068115,3.09518456459045" Point2="1.15821123123169,6.83392953872681" Point1="-0.713922142982483,14.4074325561523"/>
+                        <BezierSegment IsSmoothJoin="True" Point3="24.6657028198242,6.262038230896" Point2="20.5408058166504,0.743857204914093" Point1="12.7900133132935,-0.643561065196991"/>
+                        <BezierSegment Point3="22.5525512695313,23.935619354248" Point2="27.8648147583008,19.523120880127" Point1="28.790599822998,11.780219078064"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+        <Path Data="M265.75,196.125 C268.33333,196.125 270.91667,196.125 273.5,196.125" HorizontalAlignment="Right" Height="3" Stretch="Fill" Stroke="#FF507EC1" StrokeThickness="2" VerticalAlignment="Bottom" Width="10.738" RenderTransformOrigin="0.518,0.614" Canvas.Top="35.75" Canvas.Left="69.25">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform AngleX="-3.051"/>
+                    <RotateTransform Angle="45.196"/>
+                    <TranslateTransform X="0.142" Y="-0.564"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+    </Canvas>
+
+    <Canvas x:Shared="False" x:Key="Canvas2" HorizontalAlignment="Center" Height="36" UseLayoutRounding="False" VerticalAlignment="Center" Width="36">
+        <Path Stroke="#FF1DBBD8" Height="21.448" Canvas.Left="4.329" Canvas.Top="5.1" Width="29.973" StrokeThickness="0" RenderTransformOrigin="0.5,0.5" Fill="Black" Data="M0.86653168,-1.6160916 L25.834147,-15.423779 31.638699,7.7291467 -2.1097645,8.7246775 z" Stretch="Fill">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.134"/>
+                    <TranslateTransform X="-0.017363644821621449" Y="0.0027031608210705826"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Stroke="#FF1DBBD8" Height="21.896" Canvas.Left="-0.51" Canvas.Top="2.636" Width="16.269" StrokeThickness="0" RenderTransformOrigin="0.5,0.5" Fill="#FF747474" Data="M26.570403,-12.323374 L31.192641,5.1983645 7.9231448,18.979614" Stretch="Fill">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-149.522"/>
+                    <TranslateTransform X="9.0890947131717326" Y="-3.1484694974636085"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Rectangle Stroke="#FF1DBBD8" Height="7.006" Canvas.Left="3.891" Canvas.Top="24.281" Width="31.086" StrokeThickness="1.5" RenderTransformOrigin="0.5,0.5" RadiusX="3" RadiusY="3" Fill="Black" >
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+    </Canvas>
+
+    <Canvas Width="60" Height="60" x:Key="backgroud1">
+        <Path Data="M0.5,5.5 C0.5,2.7385763 2.7385763,0.5 5.5,0.5 L116.5,0.5 C119.26142,0.5 121.5,2.7385763 121.5,5.5 L121.5,46.5 C121.5,49.261424 119.26142,51.5 116.5,51.5 L5.5,51.5 C2.7385763,51.5 0.5,49.261424 0.5,46.5 z" HorizontalAlignment="Left" Height="60"  Stretch="Fill" Stroke="#FFCDCDCD" VerticalAlignment="Bottom" Width="60" >
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" Opacity="0.99" StartPoint="0.5,0">
+                    <GradientStop Color="#FFDCE0E3" Offset="0.456"/>
+                    <GradientStop Color="#FFD8DDE0" Offset="0.828"/>
+                    <GradientStop Color="White" Offset="0.033"/>
+                    <GradientStop Color="White" Offset="0.979"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+    </Canvas>
+</ResourceDictionary>
